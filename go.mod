@@ -3,8 +3,8 @@ module github.com/influxdata/telegraf
 go 1.15
 
 require (
-	cloud.google.com/go v0.71.0
-	cloud.google.com/go/pubsub v1.8.3
+	cloud.google.com/go v0.66.0
+	cloud.google.com/go/pubsub v1.3.1
 	cloud.google.com/go/storage v1.12.0
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	collectd.org v0.3.0
@@ -60,7 +60,7 @@ require (
 	github.com/gofrs/uuid v2.1.0+incompatible
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
 	github.com/golang/geo v0.0.0-20190916061304-5b978397cfec
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.4.2
 	github.com/google/go-cmp v0.5.2
 	github.com/google/go-github/v32 v32.1.0
 	github.com/gopcua/opcua v0.1.12
@@ -130,16 +130,16 @@ require (
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
 	github.com/yuin/gopher-lua v0.0.0-20180630135845-46796da1b0b4 // indirect
 	go.starlark.net v0.0.0-20200901195727-6e684ef5eeee
-	golang.org/x/net v0.0.0-20201026091529-146b70c837a4
+	golang.org/x/net v0.0.0-20200904194848-62affa334b73
 	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
-	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
-	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
+	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
+	golang.org/x/sys v0.0.0-20200905004654-be1d3432aa8f
 	golang.org/x/text v0.3.3
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
 	gonum.org/v1/gonum v0.6.2 // indirect
-	google.golang.org/api v0.35.0
-	google.golang.org/genproto v0.0.0-20201109203340-2640f1f9cdfb
-	google.golang.org/grpc v1.33.2
+	google.golang.org/api v0.32.0
+	google.golang.org/genproto v0.0.0-20200921151605-7abf4a1a14d5
+	google.golang.org/grpc v1.32.0
 	gopkg.in/fatih/pool.v2 v2.0.0 // indirect
 	gopkg.in/gorethink/gorethink.v3 v3.0.5
 	gopkg.in/ldap.v3 v3.1.0
